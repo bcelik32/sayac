@@ -209,5 +209,28 @@ namespace zikirmatik
         {
             azalt();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            notdefteri notepad= new notdefteri(this);
+
+
+            // Ana pencerenin konumunu alın
+            int mainFormRight = this.Location.X + this.Width;
+            int mainFormTop = this.Location.Y;
+
+            // Yeni pencerenin konumunu ayarlayın (ana pencerenin hemen sağında)
+            notepad.Location = new System.Drawing.Point(mainFormRight, mainFormTop);
+
+
+            notepad.Show();
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            toolTip1.SetToolTip(this.button4, "Yeni Bir Not Defteri Penceresi Açar.");
+
+        }
     }
 }

@@ -43,5 +43,19 @@ namespace zikirmatik
                 MessageBox.Show("Lütfen Bir Hedef Giriniz.");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            anaForm.checkBox1.Enabled = true;
+            anaForm.checkBox1.Checked = false;
+            Form1.acildimi = false;
+            Hide();
+
+        }
+
+        private void hedef_Shown(object sender, EventArgs e)
+        {
+
+        }
     }
 }
