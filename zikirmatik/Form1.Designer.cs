@@ -146,7 +146,7 @@
             // 
             // button4
             // 
-            this.button4.BackgroundImage = global::zikirmatik.Properties.Resources.notepad;
+            this.button4.BackgroundImage = global::Sayaç.Properties.Resources.notepad;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.Location = new System.Drawing.Point(92, 193);

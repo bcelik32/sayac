@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{37E20555-35E3-4FB0-8ADC-76F96B37AB7D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>zikirmatik</RootNamespace>
-    <AssemblyName>zikirmatik</AssemblyName>
+    <RootNamespace>Sayaç</RootNamespace>
+    <AssemblyName>Sayaç</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>counter.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -112,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\imageedit_5_2528243654.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="counter.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

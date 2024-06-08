@@ -28,7 +28,7 @@ namespace zikirmatik
             if (TopMost)
             {
                 this.TopMost = false;
-                Image image = Properties.Resources.thumbtacks; // 'example' eklenen resmin adıdır
+                Image image = Sayaç.Properties.Resources.thumbtacks; // 'example' eklenen resmin adıdır
 
                 // Butonun arkaplan resmini ayarlayın
                 button1.BackgroundImage = image;
@@ -37,7 +37,7 @@ namespace zikirmatik
             else
             {
                 this.TopMost = true;
-                Image image = Properties.Resources.imageedit_5_2528243654; // 'example' eklenen resmin adıdır
+                Image image = Sayaç.Properties.Resources.imageedit_5_2528243654; // 'example' eklenen resmin adıdır
 
                 // Butonun arkaplan resmini ayarlayın
                 button1.BackgroundImage = image;
